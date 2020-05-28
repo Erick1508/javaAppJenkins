@@ -2,10 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <modelVersion>4.0.0</modelVersion>
-    <artifactId>spring-boot-crud</artifactId>
-    <name>spring-boot-crud</name>
-
+    <modelVersion>
+        4.0.0
+    </modelVersion>
     <parent>
         <groupId>
             org.springframework.boot
@@ -17,7 +16,20 @@
             2.2.4.RELEASE
         </version>
         <relativePath />
+        <!-- lookup parent from repository -->
     </parent>
+    <groupId>
+        com.jenkins.crud
+    </groupId>
+    <artifactId>
+        app
+    </artifactId>
+    <version>
+        0.0.1-SNAPSHOT
+    </version>
+    <name>
+        Integration Cost Center
+    </name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <rest-assured.version>3.3.0</rest-assured.version>

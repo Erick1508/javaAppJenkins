@@ -1,4 +1,4 @@
-package com.baeldung.crud.entities;
+package com.jenkins.crud.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

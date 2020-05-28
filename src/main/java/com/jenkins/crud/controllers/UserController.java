@@ -1,7 +1,8 @@
-package com.baeldung.crud.controllers;
+package com.jenkins.crud.controllers;
 
 import javax.validation.Valid;
 
+import com.jenkins.crud.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,8 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.baeldung.crud.entities.User;
-import com.baeldung.crud.repositories.UserRepository;
+import com.jenkins.crud.repositories.UserRepository;
 
 @Controller
 public class UserController {

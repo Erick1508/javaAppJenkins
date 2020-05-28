@@ -1,4 +1,4 @@
-package com.baeldung.crud;
+package com.jenkins.crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,10 +10,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication 
 @EnableAutoConfiguration
-@ComponentScan(basePackages={"com.baeldung.crud"})
-@EnableJpaRepositories(basePackages="com.baeldung.crud.repositories")
+@ComponentScan(basePackages={"com.jenkins.crud"})
+@EnableJpaRepositories(basePackages="com.jenkins.crud.repositories")
 @EnableTransactionManagement
-@EntityScan(basePackages="com.baeldung.crud.entities")
+@EntityScan(basePackages="com.jenkins.crud.entities")
 public class Application {
 
     public static void main(String[] args) {
