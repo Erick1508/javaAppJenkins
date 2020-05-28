@@ -7,7 +7,7 @@ do
  kill -9 $l
 done
 echo "Levantando Proveedor"
-nohup java -jar /home/ec2-user/app/spring-boot-crud.jar > /dev/null &
+nohup java -jar /home/ec2-user/app/app-1.0.jar > /dev/null &
 echo "Listo, revisar puerto"
 sleep 5;
 #tail -f provider/provider.log
